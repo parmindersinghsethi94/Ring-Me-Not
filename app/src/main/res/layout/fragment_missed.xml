@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffe0e5e8"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:background="#3498DB" >
+
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView3"
+            android:src="@drawable/sample"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="73dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/name"
+            android:phoneNumber="false"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:text="Mr.Parminder Singh Sethi"
+            android:paddingBottom="0dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical|center_horizontal" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WHILE YOU WERE AWAY"
+        android:id="@+id/missedTitle"
+        android:layout_gravity="center_horizontal"
+        android:background="#cbd0d3"
+        android:layout_weight="0.06"
+        android:padding="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#354b60" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="327dp"
+        android:id="@+id/listView"
+        android:smoothScrollbar="true"
+        android:padding="10dp"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:layout_weight="0.60" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Powered By KooKoo Cloud Telephony"
+        android:id="@+id/credits"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="12dp" />
+</LinearLayout>

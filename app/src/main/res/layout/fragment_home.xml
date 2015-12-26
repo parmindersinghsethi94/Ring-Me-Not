@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:divider="#ff9d959b"
+    android:background="#ffe0e5e8">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:background="#3498DB">
+
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/sample"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="73dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/name"
+            android:phoneNumber="false"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:text="Mr.Parminder Singh Sethi"
+            android:paddingBottom="0dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical|center_horizontal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="(+91)806-7947-482"
+        android:id="@+id/number"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35dp"
+        android:gravity="center|center_vertical|center_horizontal"
+        android:textColor="#354b60"
+        android:paddingLeft="10dp"
+        android:paddingTop="0dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:ellipsize="marquee"
+        android:layout_weight="0.12" />
+
+
+    <Switch
+        android:layout_width="384dp"
+        android:layout_height="57dp"
+        android:id="@+id/statusSwitch1"
+        android:layout_gravity="right"
+        android:checked="true"
+        android:text="I Am"
+        android:textStyle="bold"
+        android:background="#2ECC71"
+        android:enabled="true"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textOff="BUSY"
+        android:textOn="AVAILABLE"
+        android:textColorLink="#fffae5f4"
+        android:accessibilityLiveRegion="polite"
+        android:textColorHighlight="#fffafafa"
+        android:textColorHint="#fffafafa"
+        android:layout_weight="0.15" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Powered By KooKoo Cloud Telephony"
+        android:id="@+id/credits"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.69"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="12dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffe0e5e8"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1"
+        android:background="#cbd0d3" >
+
+        <ImageView
+            android:layout_width="59dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView4"
+            android:src="@drawable/call_bell"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="73dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/title"
+            android:phoneNumber="false"
+            android:textSize="25dp"
+            android:textColor="#354b60"
+            android:text="ABOUT - RING ME NOT"
+            android:paddingBottom="0dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical|center_horizontal" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/about"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.93"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textColor="#000"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Powered By KooKoo Cloud Telephony"
+        android:id="@+id/credits"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal|bottom"
+        android:textSize="12dp"
+        android:textColor="#354b60" />
+</LinearLayout>

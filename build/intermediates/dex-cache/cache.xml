@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\AppPractise\RingMeNot\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="E:\AppPractise\RingMeNot\app\build\intermediates\pre-dexed\debug\classes-159e3409d60d54cbb0aeb899cdef01bed3b5ef03.jar" />
+    </item>
+    <item
+        jar="E:\AppPractise\RingMeNot\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="E:\AppPractise\RingMeNot\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-5d24daeabf4216078afb6054b2493f70053a61a1.jar" />
+    </item>
+    <item
+        jar="E:\AppPractise\RingMeNot\app\build\intermediates\exploded-aar\com.mcxiaoke.volley\library-aar\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="E:\AppPractise\RingMeNot\app\build\intermediates\pre-dexed\debug\classes-916cbb833047579f6b5ec42534a86555ff78a3e6.jar" />
+    </item>
+    <item
+        jar="E:\Program Files\Android\SDK_RUNNING\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="E:\AppPractise\RingMeNot\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-d87e6408c9344464cca89c5e6cfe5c206969f07b.jar" />
+    </item>
+    <item
+        jar="E:\AppPractise\RingMeNot\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="E:\AppPractise\RingMeNot\app\build\intermediates\pre-dexed\debug\classes-a410b5a90146eccb4daf5ea9311b72ddc96a87fa.jar" />
+    </item>
+
+</items>
